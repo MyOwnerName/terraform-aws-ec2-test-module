@@ -16,6 +16,6 @@ HCP Terraform 또는 Terraform Enterprise에서 테스트를 진행하기위해�
 다음 명령어 예시 처럼 HCP Terraform 또는 Terraform Enterprise에 등록된 모듈에 대해 테스트를 수행 합니다.
 
 ```bash
-# terraform test -cloud-run="<url>/<org_name>/<module_name>/<provider>"
+# terraform test -cloud-run="<url>/<org_name>/<module_name>/<provider>"
 terraform test -cloud-run="app.terraform.io/terraform-101-org/ec2-test-module/aws"
 ```
